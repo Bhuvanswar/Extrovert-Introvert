@@ -1,0 +1,24 @@
+[ 2025-07-24 10:20:29,859 ] 29 root - INFO - Entered the data ingestion method or component
+[ 2025-07-24 10:20:29,876 ] 32 root - INFO - Read the dataset as dataframe
+[ 2025-07-24 10:20:29,881 ] 38 root - INFO - Train test split initiated
+[ 2025-07-24 10:20:29,900 ] 42 root - INFO - Inmgestion of the data iss completed
+[ 2025-07-24 10:20:29,904 ] 77 root - INFO - Read train and test data completed
+[ 2025-07-24 10:20:29,904 ] 79 root - INFO - Obtaining preprocessing object
+[ 2025-07-24 10:20:29,904 ] 53 root - INFO - Categorical columns: ['Stage_fear', 'Drained_after_socializing']
+[ 2025-07-24 10:20:29,912 ] 54 root - INFO - Numerical columns: ['Time_spent_Alone', 'Social_event_attendance', 'Going_outside', 'Friends_circle_size', 'Post_frequency']
+[ 2025-07-24 10:20:29,914 ] 96 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-07-24 10:20:29,914 ] 98 root - INFO - Train Data Columns: Index(['Time_spent_Alone', 'Stage_fear', 'Social_event_attendance',
+       'Going_outside', 'Drained_after_socializing', 'Friends_circle_size',
+       'Post_frequency'],
+      dtype='object')
+[ 2025-07-24 10:20:29,914 ] 99 root - INFO - Test Data Columns: Index(['Time_spent_Alone', 'Stage_fear', 'Social_event_attendance',
+       'Going_outside', 'Drained_after_socializing', 'Friends_circle_size',
+       'Post_frequency'],
+      dtype='object')
+[ 2025-07-24 10:20:29,929 ] 104 root - INFO - inputfeatures_array
+[ 2025-07-24 10:20:29,935 ] 107 root - INFO - Applied SMOTE for data balancing.
+[ 2025-07-24 10:20:29,935 ] 112 root - INFO - Saved preprocessing object.
+[ 2025-07-24 10:20:29,942 ] 33 root - INFO - Split training and test input data
+[ 2025-07-24 10:22:26,128 ] 109 root - INFO - Best found model on both training and testing dataset
+[ 2025-07-24 10:22:26,128 ] 110 root - INFO - CatBoosting Classifier
+[ 2025-07-24 10:22:26,128 ] 119 root - INFO - 0.9293103448275862

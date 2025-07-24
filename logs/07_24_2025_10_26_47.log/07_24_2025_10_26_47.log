@@ -1,0 +1,5 @@
+[ 2025-07-24 10:26:47,813 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-07-24 10:26:47,820 ] 97 werkzeug - INFO -  * Debugger PIN: 131-083-035
+[ 2025-07-24 10:28:59,923 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 10:28:59] "GET / HTTP/1.1" 200 -
+[ 2025-07-24 10:29:03,301 ] 97 werkzeug - INFO - 127.0.0.1 - - [24/Jul/2025 10:29:03] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-07-24 10:29:14,564 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\bhuva\\OneDrive\\Desktop\\learn\\python\\New folder (2)\\personality\\SRC\\pipeline\\predict_pipeline.py', reloading
