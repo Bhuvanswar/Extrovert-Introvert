@@ -13,11 +13,10 @@ scikit-image
 shapely
 
 # Deep Learning
-torch
-torchvision
 ultralytics
 
 # Utilities
 requests
 PyYAML
 tqdm
+
